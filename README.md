@@ -16,3 +16,12 @@ Java environment provisioned by Ansible
 - Bower
 - Gulp
 - AngularJS
+
+## IDE
+- Eclipse Neon
+- Netbeans 8.1
+- Intellij 2016.02
+
+## Utilities
+- Slack
+- Skype
