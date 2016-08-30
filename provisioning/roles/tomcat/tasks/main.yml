@@ -1,0 +1,16 @@
+---
+- name: Install Tomcat 7
+  become: yes
+  apt: name=tomcat7 state=latest
+
+- name: Stop Tomcat 7 service
+  become: yes
+  service: name=tomcat7 state=stopped
+
+- name: Install Tomcat 8
+  become: yes
+  apt: name=tomcat8 state=latest
+
+- name: Stop Tomcat 8 service
+  become: yes
+  service: name=tomcat8 state=stopped

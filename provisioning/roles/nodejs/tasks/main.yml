@@ -1,5 +1,4 @@
 ---
-
 - name: Install Node JS
   become: yes
   apt: name=nodejs state=latest

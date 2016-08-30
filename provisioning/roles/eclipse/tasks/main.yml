@@ -1,3 +1,0 @@
----
-- name: Add Eclipse Repository
-  unarchive: src=https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-java-neon-R-linux-gtk-x86_64.tar.gz&r=1 dest=/opt remote_src=yes
