@@ -15,3 +15,4 @@ Java environment provisioned by Ansible
 - Grunt
 - Bower
 - Gulp
+- AngularJS

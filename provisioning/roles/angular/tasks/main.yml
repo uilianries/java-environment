@@ -1,0 +1,4 @@
+---
+- name: Install Angular
+  become: yes
+  npm: name=angular global=yes
