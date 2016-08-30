@@ -5,4 +5,4 @@
 
 - name: Install Skype
   become: yes
-  apt: deb=https://download.skype.com/linux/skype-ubuntu-precise_4.3.0.37-1_i386.deb
+  apt: deb=skype state=latest

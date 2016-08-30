@@ -8,7 +8,7 @@ Java environment provisioned by Ansible
 
 ## By now, some packages are ready:
 - Java 7,8
-- NodeJS
+- NodeJS 4.5
 - NPM
 - Maven
 - Tomcat 7,8
@@ -16,6 +16,7 @@ Java environment provisioned by Ansible
 - Bower
 - Gulp
 - AngularJS
+- DBeaver
 
 ## IDE
 - Eclipse Neon
