@@ -17,6 +17,7 @@ Java environment provisioned by Ansible
 - Gulp
 - AngularJS
 - DBeaver
+- Fortclient VPN
 
 ## IDE
 - Eclipse Neon
