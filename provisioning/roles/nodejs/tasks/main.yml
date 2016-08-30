@@ -1,11 +1,14 @@
 ---
+- name: Download nodejs base
+  get_url: url=https://deb.nodesource.com/setup_4.x  dest=/tmp/nodesource.sh mode=0777
+
+- name: Update Nodejs base
+  become: yes
+  shell: /tmp/nodesource.sh
+
 - name: Install Node JS
   become: yes
   apt: name=nodejs state=latest
-
-- name: Install NPM
-  become: yes
-  apt: name=npm state=latest
 
 - name: Install NPM dependencies
   become: yes
