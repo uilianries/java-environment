@@ -1,0 +1,11 @@
+---
+- name: Download Intellij
+  get_url: url=https://download.jetbrains.com/idea/ideaIC-2016.2.2.tar.gz dest=/tmp
+
+- name: Unpack Intellij
+  become: yes
+  unarchive: src=/tmp/ideaIC-2016.2.2.tar.gz dest=/opt
+  
+- name: Link Intellij
+  become: yes
+  file: src=/opt/idea-IC-162.1628.40/bin/idea.sh dest=/usr/local/bin/intellij state=link

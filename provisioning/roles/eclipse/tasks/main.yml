@@ -1,0 +1,12 @@
+---
+- name: Download Eclipse
+  get_url: url=https://ftp.fau.de/eclipse/technology/epp/downloads/release/neon/R/eclipse-java-neon-R-linux-gtk-x86_64.tar.gz dest=/tmp
+
+- name: Unpack Eclipse
+  become: yes
+  unarchive: src=/tmp/eclipse-java-neon-R-linux-gtk-x86_64.tar.gz dest=/opt
+
+- name: Link Eclipse
+  become: yes
+  file: src=/opt/eclipse/eclipse dest=/usr/local/bin/eclipse state=link
+  

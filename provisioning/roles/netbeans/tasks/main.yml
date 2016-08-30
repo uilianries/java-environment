@@ -1,0 +1,4 @@
+---
+- name: Install Netbeans
+  become: yes
+  apt: name=netbeans state=latest

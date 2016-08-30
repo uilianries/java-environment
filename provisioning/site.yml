@@ -1,7 +1,7 @@
 ---
 # Deplay A minimal environment for Java Software development
 
-- name: Apply environment
+- name: Calcard environment
   hosts: localhost
   remote_user: root
 
@@ -14,3 +14,13 @@
     - gulp
     - grunt
     - angular
+
+- name: IDE
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - netbeans
+    - intellij
+    - eclipse
+    - utilities
