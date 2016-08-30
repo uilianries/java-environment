@@ -13,7 +13,7 @@
     - grunt
     - angular
     - dbeaver
-    - sslpvn
+    - sslvpn
 
 - name: IDE
   hosts: localhost
