@@ -6,15 +6,14 @@
   remote_user: root
 
   roles:
-    - java
     - maven
-    - nodejs
     - tomcat
     - bower
     - gulp
     - grunt
     - angular
     - dbeaver
+    - sslpvn
 
 - name: IDE
   hosts: localhost

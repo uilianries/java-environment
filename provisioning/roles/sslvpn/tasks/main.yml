@@ -1,0 +1,4 @@
+---
+- name: Install Fortclient SSLVPN
+  become: yes
+  apt: deb=https://hadler.me/files/forticlient-sslvpn_4.4.2327-2_amd64.deb
