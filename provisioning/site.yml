@@ -8,4 +8,4 @@
   roles:
     - java
     - maven
-    - eclipse
+    - nodejs

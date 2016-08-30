@@ -1,0 +1,16 @@
+---
+
+- name: Install Node JS
+  become: yes
+  apt: name=nodejs state=latest
+
+- name: Install NPM
+  become: yes
+  apt: name=npm state=latest
+
+- name: Install NPM dependencies
+  become: yes
+  apt: name={{item}} state=installed
+  with_items:
+       - build-essential 
+       - libssl-dev
