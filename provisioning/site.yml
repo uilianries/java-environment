@@ -1,0 +1,11 @@
+---
+# Deplay A minimal environment for Java Software development
+
+- name: Apply environment
+  hosts: localhost
+  remote_user: root
+
+  roles:
+    - java
+    - maven
+    - eclipse
