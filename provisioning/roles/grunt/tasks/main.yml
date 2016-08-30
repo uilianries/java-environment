@@ -1,0 +1,4 @@
+---
+- name: Install Grunt
+  become: yes
+  npm: name=grunt global=yes

@@ -1,0 +1,4 @@
+---
+- name: Install Gulp
+  become: yes
+  npm: name=gulp global=yes

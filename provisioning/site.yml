@@ -10,3 +10,6 @@
     - maven
     - nodejs
     - tomcat
+    - bower
+    - gulp
+    - grunt

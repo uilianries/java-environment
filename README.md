@@ -7,7 +7,11 @@ Java environment provisioned by Ansible
 #### Execute ansible-playbook site.yml
 
 ## By now, some packages are ready:
-- Java 7, 8
+- Java 7,8
 - NodeJS
 - NPM
 - Maven
+- Tomcat 7,8
+- Grunt
+- Bower
+- Gulp
